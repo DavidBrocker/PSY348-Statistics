@@ -1,0 +1,485 @@
+---
+title: "Operationalization"
+subtitle: "PSY 348: Lecture 2"
+author: "Dave Brocker"
+institute: "Farmingdale State College"
+css: "styles.css"
+format: 
+  revealjs:
+    incremental: true   
+    touch: true
+    scrollable: true
+---
+
+## Studying Psychology
+
+What do researchers in the areas of psychology that are interesting to you study?
+
+::: columns
+::: {.column width="50%"}
+-   Attitudes
+
+-   Beliefs
+
+-   Behaviors
+:::
+
+::: {.column width="50%"}
+-   Brain Activity
+
+-   Thoughts
+
+-   Performance/Ability
+:::
+:::
+
+## Studying Psychology
+
+### The Bobo Doll Experiment (Bandura, 1961)
+
+### ![](images/bobo.png)
+
+## Operationalization
+
+> The process of defining the measurement of a phenomenon that is not directly measurable (AKA a latent variable) though its existence is implied by other phenomena.
+
+## Operationalization
+
+### Figuring out how to measure something you can't directly measure.
+
+-   Attitudes, Beliefs, Thoughts
+
+-   Behaviors
+
+-   Brain activity
+
+-   Performance/Abilities
+
+## Operationalization
+
+-   Self-Report OR Behavioral Measures
+
+-   Observation
+
+-   Implicit Measures
+
+-   Tests OR Observation
+
+## Self-report
+
+-   AKA surveys
+
+-   AKA questionnaires
+
+## Self-Report
+
+### What's wrong with this?
+
+```{ojs}
+//| echo: false
+
+viewof survey = Inputs.radio(
+  ["Best", "Greatest", "G.O.A.T"],
+  {label: "Professor Brocker is the____"}
+)
+```
+
+## Self-Report:
+
+### Advantages
+
+-   Most popular method of assessing attitudes[^1]
+
+-   Can obtain large amounts of data
+
+-   Quick
+
+[^1]: In certain fields
+
+## Self-Report:
+
+### Disadvantages
+
+Acquiescence
+
+:   -   Tendency to say yes, true, agree
+
+Social desirability
+
+:   -   Tendency to respond in ways that are seen as socially acceptable
+
+Demand characteristics
+
+:   -   Tendency to response in ways that participant thinks researcher wants
+
+## Self-report:
+
+### Avoiding Disadvantages
+
+<details>
+
+Anonymous respondents are less likely to make things up
+
+<summary>Assure anonymity</summary>
+
+</details>
+
+<details>
+
+Allow respondents to answer in private
+
+<summary>Allow for maximum privacy</summary>
+
+</details>
+
+<details>
+
+Don't make your experiment too obvious/revealing
+
+<summary>Obscure the true goal of the experiment</summary>
+
+</details>
+
+<details>
+
+Add questions that test for respondent awareness
+
+<summary>Include attention checks</summary>
+
+</details>
+
+<details>
+
+Purposely make some questions opposite
+
+<summary>Reverse coding</summary>
+
+</details>
+
+## Behavioral Measures
+
+-   Taking a flier
+
+-   Signing a petition
+
+-   Internet Behavior [^2]
+
+[^2]: Not a perfect stand-in!
+
+## Observation
+
+### The Bobo Doll Experiment (Bandura, 1961)
+
+### ![](images/bobo.png)
+
+## The Bobo Doll Experiment
+
+### (Bandura, 1961)
+
+-   Live aggression by adult
+
+-   Videotaped aggression by adult
+
+-   Cartoon aggression
+
+    -   No aggression
+
+## Observation
+
+### Disadvantages
+
+-   Time consuming
+
+-   Different reviewers/observers may score behaviors differently.
+
+    -   Coding scheme
+
+    -   Inter-rater Reliability
+
+## Implicit measures
+
+### Brain activity
+
+::: columns
+::: {.column width="50%"}
+-   Functional Magnetic Resonance Imaging (fMRI)
+
+    -   neuroimaging of brain activity
+
+        ![](images/fmri.png){width="163"}
+:::
+
+::: {.column width="50%"}
+-   Electroencephalography (EEG)
+
+    -   electrodes on surface of scalp measures brain activity
+
+        ![](images/eeg.png){width="158"}
+:::
+:::
+
+## Issues with Operationalization
+
+### Why is it hard to measure psychological phenomena?
+
+-   Others may choose to measure the phenomena differently from us
+
+-   Operationalization can be culture-specific
+
+-   What we measure is based on observable parts of the phenomena, but some parts may be unobservable
+
+    -   Measuring only the observable/reportable is imprecise
+
+## Operationalization
+
+### How should we measure aggression in children?
+
+-   Observer children for one hour and...
+
+    -   **Label** them as Aggressive or Non-Aggressive
+
+    -   **Rank** them from most aggressive to least aggressive
+
+    -   **Score** them on a 10-point scale.
+
+        -   1 = No Aggression
+
+        -   10 = All of the Aggression
+
+    -   **Count** number of aggressive behaviors
+
+## Scales of measurement
+
+-   **Labels**
+
+-   **Rank**
+
+-   **Scale**
+
+-   **Count**
+
+## Scales of measurement
+
+-   Nominal
+
+-   Order
+
+-   Interval
+
+-   Ratio
+
+## Measurement scales: Nominal
+
+### *Nominal, like name, refers to categories that CANNOT be ordered:*
+
+-   Condition (experimental, control)
+
+-   Gender
+
+-   Major in college
+
+-   Coffee drinker versus Non-coffee drinker (aka sociopath)
+
+## Measurement scales: Ordinal
+
+### *Ordinal, like order, refers to categories that CAN be ordered, but the space between each category isn't necessarily the same:*
+
+-   Olympic Medals
+
+-   Winner in a Race
+
+-   Your rank in this class
+
+## Measurement scales: Interval
+
+### *Interval refers to ratings that are ordered where the interval between each rating is the same, but there is no real "0."*
+
+-   Temperature\*
+
+-   "On a scale of 1-10 How much do you agree with the following statement..."
+
+## Measurement scales: Ratio
+
+### Ratio, refers to ratings that are ordered, the interval between each rating is the same, and "0" means "0."
+
+-   Length
+
+-   Reaction Time
+
+-   Dosage
+
+## Ordinal Scales
+
+-   Rarely used in psychological research, because it is hard to calculate variance when the interval between each number differs.
+
+-   There are non-parametric statistics designed for ordinal scales, but we will not be covering those this semester.
+
+## Interval vs Ratio
+
+### What's the difference between interval and ratio?
+
+-   Interval may have a 0 on the scale, but it doesn't mean the absence of something. A 0.0 GPA means an F rather than the absence of a grade.
+
+-   Ratio has a 0 that. means 0 (the absence of something), like a '0' as a response to the questions, "How many drinks did you have last night?"
+
+## Determining Scale of measurement
+
+### Identify the scale of measurement.
+
+Undergraduates report their self-esteem on a scale of 1 to 10. Researchers assess the relationship of undergraduates’ self-esteem and GPA.
+
+-   Predictor variable: **Self-Esteem** \| [Continuous (Interval)]{style="color:#006456"}
+
+-   Outcome variable: **GPA** \| [Continuous (Interval)]{style="color:#006456"}
+
+## Determining Scale of measurement
+
+### Identify the scale of measurement.
+
+Participants are given a mystery drug or placebo and then asked to complete puzzle tasks. Researchers time how long participants take to complete the puzzles.
+
+-   Independent variable: Drug vs. Placebo [Categorical (Nominal)]{style="color:#006456"}
+
+-   Dependent variable: Reaction Time \| [Continuous (Ratio)]{style="color:#006456"}
+
+## Determining Scale of measurement
+
+### Identify the scale of measurement.
+
+Undergraduates are shown either pictures of death or pictures of landscapes. They then report their anxiety about aging on a scale of 1 (none) to 10 (lots).
+
+-   Independent variable: Pictures of death versus landscapes \| [Categorical (Nominal)]{style="color:#006456"}
+
+-   Dependent variable: Anxiety about dying \| [Continuous (Interval)]{style="color:#006456"}
+
+## WHY does scale of measurement matter?
+
+-   Statistical tests can only be run on specific scales of measurement.
+
+-   t-test & ANOVA: Nominal IV/predictor and Continuous DV/outcome
+
+-   Correlation & Regression: All continuous
+
+## Why does scale of measurement matter?
+
+-   Generally, continuous variables (interval and ratio scales) lend themselves better to statistical analysis.
+
+-   As a researcher, you should plan out your statistical analysis BEFORE conducting your study, so that you measure your variables in a way that matches the type of analyses you will run.
+
+-   [TAKE AWAY]{.underline}: *How* we measure variables matters because it dictates what kind of statistical analyses we can run.
+
+## Statistical terms & Symbols
+
+![](images/eq.png)
+
+## Statistical terms
+
+Population
+
+:   Every person in the group I am interested in studying
+
+Sample
+
+:   A small subset of people from the population who we will actually study in our experiment.
+
+Parameter:
+
+:   Information about the population.
+
+Statistic
+
+:   Information about the sample.
+
+## Statistical Symbols
+
+### Case-sensitive and often Greek
+
+-   $n$ = the number of people in the sample
+
+-   $x$ = one datapoint in a sample
+
+-   $\bar{x}$ = Arithmetic mean (average) for a sample, x
+
+-   $\Sigma(x)$ = The sum of all values in a sample, x
+
+-   $\sum^{n}_{i = 1} = x_1 +x_2+x_3...$
+
+## Practice 1
+
+### Study Up!
+
+> Esmeralda is taking Statistics for the Psychological Sciences. On her first exam, she scored 98. The average grade among the 26 students on that exam was 97
+
+```{ojs}
+
+viewof n = Inputs.text({
+  label: "n", 
+  placeholder: "Enter the value of n",
+  width: "40%"
+  })
+
+viewof x = Inputs.text({
+  label: "x", 
+  placeholder: "Enter the value of x",
+  width: "40%"
+})
+
+viewof xbar = Inputs.text({
+  label: "xbar", 
+  placeholder: "Enter the value of xbar",
+  width: "40%"})
+```
+
+## Practice 2
+
+### You Ever Heard of this show?
+
+> Professor Brocker is interested in how many Farmingdale students watch the Netflix Original, Dark. He plans to ask 200 students if they have seen it or not.
+
+```{ojs}
+viewof pop = Inputs.text({
+  label: "N", 
+  placeholder: "",
+  width: "40%"
+  
+})
+
+viewof n2 = Inputs.text({
+  label: "n", 
+  placeholder: "",
+  width: "40%"
+  
+})
+
+viewof scale = Inputs.text({
+  label: "Scale of measurment", 
+  placeholder: "",
+  width: "40%"
+  
+})
+
+```
+
+## Practice 3
+
+### Be Kind to Yourself!
+
+> A research study surveys 500 college student across 5 campuses in the United States, asking them to rate their self-esteem on a scale of 1 to 10.
+
+```{ojs}
+
+Inputs.text({
+  label: "Sample", 
+  placeholder: "",
+  width: "40%"})
+
+Inputs.text({
+  label: "Population", 
+  placeholder: "",
+  width: "40%"})
+
+Inputs.text({
+  label: "Scale of measurment", 
+  placeholder: "",
+  width: "40%"})
+```
